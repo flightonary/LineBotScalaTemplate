@@ -2,8 +2,11 @@ package services
 
 import java.time.{Clock, Instant}
 import javax.inject._
+
 import play.api.Logger
 import play.api.inject.ApplicationLifecycle
+import play.api.libs.ws.WSClient
+
 import scala.concurrent.Future
 
 /**

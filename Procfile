@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/linedevbot -Dhttp.port=$PORT -Dconfig.resource=production.conf

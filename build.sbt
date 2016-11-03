@@ -11,7 +11,10 @@ libraryDependencies ++= Seq(
   cache,
   ws,
   "org.webjars" %% "webjars-play" % "2.5.0",
-
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 )
 
+scalacOptions ++= Seq(
+  "-feature",
+  "-language:postfixOps"
+)
