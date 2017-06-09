@@ -20,4 +20,4 @@ models.linebot.api.SendObjectsにあるAPIを使えばいろんな返答がで�
 
 Contributors
 ------------
-tonary (jetbeaver@gmail.com)
+tonary (nekomelife@gmail.com)
